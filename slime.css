@@ -1,0 +1,95 @@
+#im1{
+	width: 23%
+}
+
+#imroda {
+	width: 20%;
+}
+
+header {
+	background: #FF8C00;
+}
+
+nav {
+	position: absolute;
+	top: 135px;
+	right: 0;
+	left: 1250px;
+
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size:25px;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.prod li:hover {
+	border-color: #FF8C00;
+}
+
+.prod li:active {
+	border-color: #00FFFF;
+}
+.prod li:hover h2{
+	font-size: 34px;
+}
+
+.prod {
+	margin: 30px, auto;
+}
+
+.prod li  {
+	display: inline-block;
+	text-align: center;
+	width: 24.5%;
+	vertical-align: top;
+	margin: 2% 0;
+	padding: 10px 0;
+	border: 2px solid #000000;
+	border-radius: 15px
+}
+
+.prod h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 3.5% 0;
+	text-transform: uppercase;
+}
+
+.desc {
+	font-size: 20px;
+	margin: 2% 0;
+}
+
+.preco {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 2% 0;
+}
+
+footer {
+	text-align: center;
+	background: #C0C0C0;
+	padding: 40px 0;
+}
+
+.textro {
+	font-size: 20px;
+	margin: 20px 0 0;
+}
+
